@@ -10,7 +10,7 @@ public class CalculatorService {
     
     
     public String addAndReport(int a, int b) {
-        int result = calculator.subtract(a, b);
+        int result = calculator.add(a, b);
         return "Result: " + result;
     }
     

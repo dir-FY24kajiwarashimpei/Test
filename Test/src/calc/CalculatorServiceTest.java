@@ -29,7 +29,7 @@ class CalculatorServiceTest {
     }
 
     @Test
-    void testSubstractAndReport() {
+    void testSubtractAndReport() {
         assertEquals("Result: 1", service.subtractAndReport(3,2));
     }
 
